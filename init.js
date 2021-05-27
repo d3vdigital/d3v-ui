@@ -4,7 +4,9 @@ let current_location = document.currentScript.src.replace('init.js', '');
 
 /******** Load CSS ********/
 load_css(current_location+'lib-ui/bootstrap/css/bootstrap.min.css');
+load_css(current_location+'lib-ui/bootstrap/css/ie10-viewport-bug-workaround.css');
 load_css(current_location+'lib-ui/bootbox/bootbox.css');
+load_css(current_location+'lib-ui/bootstrap-cookie-alert/cookiealert.css');
 
 
 /******** Load JS ********/
@@ -13,6 +15,7 @@ load_js(current_location+'lib-js/popper/popper.min.js');
 load_js(current_location+'lib-ui/bootstrap/js/bootstrap.min.js');
 load_js(current_location+'lib-ui/bootbox/bootbox.min.js');
 load_js(current_location+'lib-ui/bootbox/bootbox.locales.min.js');
+load_js(current_location+'lib-ui/bootstrap-cookie-alert/cookiealert.js');
 load_js(current_location+'lib-fonts/fontawesome/js/all.js');
 
 
